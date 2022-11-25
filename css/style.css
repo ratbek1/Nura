@@ -1,0 +1,680 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: white;
+}
+
+#header .header--headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 90%;
+}
+#header .header--headerTop__contack {
+  color: #FFFFFF;
+}
+#header .header--headerTop__contack--block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#header .header--headerTop__contack--block__whatsapp {
+  font-size: 30px;
+}
+#header .header--headerTop__contack--block__tel {
+  border: solid 2px #DBA069;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 0 0 0 30px;
+}
+#header .header--headerTop__contack--block__tel a:hover {
+  color: black;
+  transition: 2s;
+}
+#header .header--headerTop__contack--block__tel--nomber {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+#header .header--headerTop__contack--menu {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  margin: 30px;
+  right: -60px;
+}
+#header .header--headerTop__contack--menu a:hover {
+  border-bottom: solid 3px #DBA069;
+  color: #edfa4e;
+}
+#header .header--headerTop__contack--menu a {
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+#hero {
+  background: url("../img/Фон.jpg") no-repeat center/cover;
+}
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--img1 {
+  position: absolute;
+  left: 95%;
+}
+#hero .hero--img2 {
+  position: absolute;
+  left: 71.8%;
+}
+#hero .hero--img3 {
+  position: absolute;
+  left: 50%;
+}
+#hero .hero--img4 {
+  position: absolute;
+  left: 29%;
+}
+#hero .hero--city {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 265px 0 40px 0;
+}
+#hero .hero--btn {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  border: none;
+  padding: 20px 30px;
+  margin: 0 0 40px 0;
+}
+#hero .hero--btn:hover {
+  background: #DBA069;
+  transition: 2s;
+}
+#hero .hero--title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin: 0 0 40px 0;
+}
+#hero .hero--block {
+  margin: 0 0 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#hero .hero--block__block1 {
+  display: flex;
+  align-items: center;
+}
+#hero .hero--block__block1--3 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 83.7%;
+  color: #FFFFFF;
+}
+#hero .hero--block__block1--kottedja {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0 0 20px 10px;
+}
+#hero .hero--block__block1--33 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 83.7%;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+#hero .hero--block__block1--kottedja2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0 0 20px 10px;
+}
+#hero .hero--block2__blockTitle {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 30px 0;
+}
+
+#group .group {
+  background: url("../img/О проекте.png") no-repeat right;
+}
+#group .group--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#group .group--block__block1--project {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  margin-top: 20%;
+}
+#group .group--block__block1--elt {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  margin: 60px 0 30px 0;
+}
+#group .group--block__block1--m2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+#group .group--block__block1--company {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 60px 0 20px 0;
+}
+#group .group--block__block1--texcom {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+#group .group--block__block1--missie {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 60px 0 20px 0;
+}
+#group .group--block__block1--texmiss {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+#group .group--block__block2 {
+  margin-top: 10%;
+}
+#group .group--block__block2--svg2 {
+  margin-left: 8%;
+}
+#group .group--block__block2--svg {
+  position: absolute;
+  right: 0;
+  top: 135%;
+}
+#group .group--block__block2--red {
+  position: absolute;
+  right: 86px;
+  margin-top: 32px;
+}
+#group .group--block__block2--mm {
+  position: absolute;
+  z-index: 2;
+  right: 124px;
+}
+#group .group--block__block2--title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  color: #333333;
+}
+#group .group--block__block2--goal {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  margin: 30px 0 30px 0;
+}
+
+#hero2 {
+  background: rgba(132, 34, 49, 0.05);
+  margin-top: 50px;
+}
+#hero2 .hero2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero2 .hero2--log {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  margin: 40px 0 90px 0;
+}
+#hero2 .hero2--arrow1 {
+  position: absolute;
+  left: 2%;
+  margin-top: 10%;
+}
+#hero2 .hero2--arrow {
+  position: absolute;
+  margin-top: 10%;
+}
+#hero2 .hero2--home {
+  position: absolute;
+  left: 8%;
+  margin-top: -4%;
+}
+#hero2 .hero2--img {
+  margin-bottom: 50px;
+}
+#hero2 .hero2--one {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 10% 0 3% 15%;
+}
+
+#location {
+  background: url("../img/ЛОКАЦИЯ.svg") no-repeat right;
+  height: 350px;
+  margin: 10% 0 15% 0;
+}
+#location .location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#location .location--location {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  margin-top: 25%;
+}
+#location .location--title1 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  margin: 50px 0 20px 0;
+}
+#location .location--title2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+#location .location--img {
+  position: absolute;
+  right: 0;
+  margin-top: -8%;
+}
+#location .location--map {
+  position: absolute;
+  z-index: 3;
+  right: 8%;
+  margin-top: -12%;
+  height: 400px;
+}
+#location .location--red {
+  position: absolute;
+  right: 5.5%;
+  z-index: 2;
+  margin-top: -9.5%;
+}
+
+#nuraCity {
+  background: url("../img/Rectangle 6.png");
+  width: 65%;
+}
+#nuraCity .nuraCity {
+  margin-left: 10%;
+}
+#nuraCity .nuraCity--city {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  padding: 30px 0;
+}
+#nuraCity .nuraCity--img {
+  position: relative;
+  z-index: 2;
+}
+#nuraCity .nuraCity--simvol {
+  position: absolute;
+  left: 0;
+  margin-top: -29%;
+}
+#nuraCity .nuraCity--block02 {
+  display: flex;
+  align-items: center;
+}
+#nuraCity .nuraCity--block1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nuraCity .nuraCity--block1__place {
+  display: flex;
+  align-items: center;
+}
+#nuraCity .nuraCity--block1__place--title {
+  margin: 20px 20px;
+}
+#nuraCity .nuraCity--block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nuraCity .nuraCity--block2__block01 {
+  display: flex;
+  align-items: center;
+}
+
+#hero3 {
+  background: url("../img/whate.svg") no-repeat;
+  margin-top: 5%;
+}
+#hero3 .hero3--log {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  padding-top: 4%;
+  padding-left: 4%;
+}
+#hero3 .hero3--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero3 .hero3--block__fon {
+  margin-top: 52%;
+}
+#hero3 .hero3--block__block2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+}
+#hero3 .hero3--block__block2--block01 {
+  display: flex;
+}
+#hero3 .hero3--block__block2--block01__tex {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block01__text1 {
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block02 {
+  display: flex;
+  margin: 60px 0 70px 0;
+}
+#hero3 .hero3--block__block2--block02__tex {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block02__text1 {
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block03 {
+  display: flex;
+  margin: 0 0 0 70px;
+}
+#hero3 .hero3--block__block2--block03__tex {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block03__text1 {
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block04 {
+  display: flex;
+  margin: 60px 0 70px 70px;
+}
+#hero3 .hero3--block__block2--block04__tex {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block04__text {
+  margin: 10px 0 20px 20px;
+}
+#hero3 .hero3--block__block2--block04__text1 {
+  margin: 0 0 20px 20px;
+}
+#hero3 .hero3--block__img {
+  position: absolute;
+  left: 14%;
+  margin-top: 13%;
+}
+#hero3 .hero3--block__red {
+  position: absolute;
+  left: 11%;
+  margin-top: 14%;
+}
+
+#tehnolog .tehnolog--logo {
+  background: url("../img/tehnologia.png") no-repeat;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 3%;
+  height: 200px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  padding-top: 75px;
+  text-align: center;
+}
+#tehnolog .tehnolog--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tehnolog .tehnolog--block__tema {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+}
+#tehnolog .tehnolog--block__text {
+  margin: 0 0 50px 0;
+}
+#tehnolog .tehnolog--block__block1 {
+  margin-top: -20%;
+}
+#tehnolog .tehnolog--block__block2--tema {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+}
+#tehnolog .tehnolog--block__block2--text {
+  margin: 0 0 50px 0;
+}
+
+#contack .contack--simbol {
+  position: absolute;
+  right: 0;
+  margin-top: -40%;
+  z-index: -1;
+}
+#contack .contack--block {
+  text-align: center;
+  background: #FFFFFF;
+  border: 8px solid #842231;
+  border-radius: 8px;
+}
+#contack .contack--block__prezen {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2E363E;
+  padding-top: 50px;
+}
+#contack .contack--block__tex {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: -0.2px;
+  color: #2E363E;
+  padding: 20px 0 40px 0;
+}
+#contack .contack--block__blocktitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+#contack .contack--block__blocktitle--icon1 {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+#contack .contack--block__blocktitle--icon2 {
+  position: absolute;
+  padding-top: 45px;
+  padding-left: 45px;
+}
+#contack .contack--block__blocktitle--btn {
+  background: #842231;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  padding: 25px 90px;
+}
+#contack .contack--block__blocktitle--nomber {
+  padding: 25px 50px 25px 40px;
+  border: none;
+  background: #F2F6FA;
+  border-radius: 8px;
+  outline: none;
+  margin: 20px 30px;
+}
+#contack .contack--block__blocktitle--name {
+  padding: 25px 50px 25px 40px;
+  border: none;
+  background: #F2F6FA;
+  border-radius: 8px;
+  outline: none;
+}
+#contack .contack--logo {
+  background: url("../img/оплата.png") no-repeat;
+  width: 60%;
+  margin-left: 18%;
+  height: 200px;
+  padding-left: 15%;
+  padding-top: 7%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+  margin-top: 50px;
+}
+#contack .contack--block2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contack .contack--block2__text {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #333333;
+}
+#contack .contack--block2__img {
+  margin: 0 100px 10px 100px;
+}
+#contack .contack--block3 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contack .contack--block3__block02 {
+  margin-right: 10%;
+}
+#contack .contack--block3__block02--gmail {
+  color: black;
+}
+#contack .contack--block3__block02--nomber {
+  margin-bottom: 10px;
+}
+#contack .contack--block3__block02--insta {
+  margin-top: 10px;
+}
+#contack .contack--block3__block02--QRC {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: -5%;
+}
+#contack .contack--block3__block02--adress {
+  margin: 20px 0;
+}
+#contack .contack--block3__block02--contac {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+}
+#contack .contack--footer {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  color: #333333;
+  text-align: center;
+  margin: 5% 20%;
+}
+#contack .contack--footer a {
+  color: black;
+  margin-left: 8%;
+}
+#contack .contack--maxico {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #842231;
+  margin-left: 40%;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

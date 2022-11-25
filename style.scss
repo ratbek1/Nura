@@ -1,0 +1,518 @@
+@import "mixins";
+@import "varables";
+@import "reset";
+@import "global";
+#header{
+  .header{
+    &--headerTop{
+      @include between;
+      position: absolute;
+      width: 90%;
+      &__contack{
+        color: $white;
+      &--block{
+        @include row;
+          &__whatsapp{
+          font-size: 30px;
+        }
+        &__tel{
+          border:solid 2px #DBA069;
+          padding: 10px 15px;
+          border-radius: 10px;
+          margin: 0 0 0 30px;
+          a:hover{
+            color: black;
+            transition: 2s;
+          }
+          &--nomber{
+            @include contack;
+          }
+        }
+       }
+        &--menu{
+          @include menu;
+          a:hover{
+            border-bottom:solid 3px #DBA069;
+            color: #edfa4e;
+          }
+          a{
+            color: $white;
+            padding: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+#hero{
+  background: url("../img/Фон.jpg")no-repeat center/cover;
+  .hero{
+    &--img1{
+      position: absolute;
+      left: 95%;
+    }
+    &--img2{
+      position: absolute;
+      left: 71.8%;
+    }
+    &--img3{
+      position: absolute;
+      left: 50%;
+    }
+    &--img4{
+      position: absolute;
+      left: 29%;
+    }
+    @include between;
+    &--city{
+      @include city;
+    }
+    &--btn{
+      @include btn;
+    }
+    &--btn:hover{
+      background: #DBA069;
+      transition: 2s;
+    }
+    &--title{
+      @include title;
+    }
+    &--block{
+      margin: 0 0 100px 0;
+      @include row;
+      &__block1{
+        @include block1;
+        &--3{
+          @include three;
+        }
+        &--kottedja{
+          @include kottedja;
+        }
+        &--33{
+          @include three;
+          margin-left: 30px;
+        }
+        &--kottedja2{
+          @include kottedja;
+        }
+      }
+    }
+    &--block2{
+      &__blockTitle{
+        @include blockTitle;
+        margin: 30px 0;
+      }
+    }
+  }
+}
+#group{
+  .group{
+    background: url("../img/О проекте.png")no-repeat right;
+    &--block{
+      @include between;
+      &__block1{
+        &--project{
+          @include project;
+          margin-top: 20%;
+        }
+        &--elt{
+          @include elt;
+          margin: 60px 0 30px 0;
+        }
+        &--m2{
+          @include elt;
+        }
+        &--company{
+          @include company;
+          margin: 60px 0 20px 0;
+        }
+        &--texcom{
+          @include texcom;
+        }
+        &--missie{
+          @include company;
+          margin: 60px 0 20px 0;
+        }
+        &--texmiss{
+          @include texcom;
+        }
+      }
+      &__block2{
+        margin-top: 10%;
+        &--svg2{
+          margin-left: 8%;
+        }
+        &--svg{
+          position: absolute;
+          right: 0;
+          top: 135%;
+        }
+        &--red{
+          position: absolute;
+          right: 86px;
+          margin-top: 32px;
+        }
+        &--mm{
+          position: absolute;
+          z-index: 2;
+          right: 124px;
+        }
+        &--title{
+          @include text;
+        }
+        &--goal{
+          @include goal;
+          margin: 30px 0 30px 0;
+        }
+      }
+    }
+  }
+}
+#hero2{
+  background: rgba(132, 34, 49, 0.05);
+  margin-top: 50px;
+  .hero2{
+    @include between;
+    &--log{
+      @include project;
+      margin: 40px 0 90px 0;
+    }
+    &--arrow1{
+      position: absolute;
+      left: 2%;
+      margin-top: 10%;
+    }
+    &--arrow{
+      position: absolute;
+      margin-top: 10%;
+    }
+    &--home{
+      position: absolute;
+      left: 8%;
+      margin-top: -4%;
+    }
+    &--img{
+      margin-bottom: 50px;
+    }
+    &--one{
+      @include one;
+      margin: 10% 0 3% 15%;
+    }
+  }
+}
+#location{
+  background: url("../img/ЛОКАЦИЯ.svg")no-repeat right;
+  height: 350px;
+  margin: 10% 0 15% 0;
+  .location{
+    @include between;
+    &--location{
+      @include project;
+      margin-top: 25%;
+    }
+    &--title1{
+      @include texcom;
+      margin: 50px 0 20px 0;
+    }
+    &--title2{
+      @include texcom;
+    }
+    &--img{
+      position: absolute;
+      right: 0;
+      margin-top: -8%;
+    }
+    &--map {
+      position: absolute;
+      z-index: 3;
+      right: 8%;
+      margin-top: -12%;
+      height: 400px;
+    }
+    &--red{
+      position: absolute;
+      right: 5.5%;
+      z-index: 2;
+      margin-top: -9.5%;
+    }
+  }
+}
+#nuraCity{
+  background: url("../img/Rectangle 6.png");
+  width: 65%;
+  .nuraCity{
+    margin-left: 10%;
+    &--city{
+      @include project;
+      padding: 30px 0;
+    }
+    &--img{
+      position: relative;
+      z-index: 2;
+    }
+    &--simvol{
+      position: absolute;
+      left: 0;
+      margin-top: -29%;
+    }
+    &--block02{
+      display: flex;
+      align-items: center;
+    }
+    &--block1{
+      @include between;
+      &__place{
+        display: flex;
+        align-items: center;
+        &--title{
+          margin: 20px  20px;
+        }
+      }
+    }
+    &--block2{
+      @include between;
+      &__block01{
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+#hero3{
+  background: url("../img/whate.svg")no-repeat;
+  margin-top: 5%;
+  .hero3{
+    &--log{
+      @include project;
+      padding-top: 4%;
+      padding-left: 4%;
+    }
+    &--block{
+      @include between;
+      &__fon{
+        margin-top: 52%;
+      }
+      &__block2{
+        display: flex;
+        align-items: center;
+        margin-top: 20%;
+        &--block01{
+          display: flex;
+          &__tex{
+            @include company;
+            margin: 0 0 20px 20px;
+          }
+          &__text1{
+            margin: 0 0 20px 20px;
+          }
+        }
+        &--block02{
+          display: flex;
+          margin: 60px 0 70px 0;
+          &__tex{
+            @include company;
+            margin: 0 0 20px 20px;
+          }
+          &__text1{
+            margin: 0 0 20px 20px;
+          }
+        }
+        &--block03{
+          display: flex;
+          margin: 0 0 0 70px;
+          &__tex{
+            @include company;
+            margin: 0 0 20px 20px;
+          }
+          &__text1{
+            margin: 0 0 20px 20px;
+          }
+        }
+        &--block04{
+          display: flex;
+          margin:  60px 0 70px 70px;
+          &__tex{
+            @include company;
+            margin: 0 0 20px 20px;
+          }
+          &__text{
+            margin: 10px 0 20px 20px;
+          }
+          &__text1{
+            margin: 0 0 20px 20px;
+          }
+        }
+      }
+      &__img{
+        position: absolute;
+        left: 14%;
+        margin-top: 13%;
+      }
+      &__red{
+        position: absolute;
+        left: 11%;
+        margin-top: 14%;
+      }
+    }
+  }
+}
+#tehnolog{
+  .tehnolog{
+    &--logo{
+      background: url("../img/tehnologia.png")no-repeat;
+      width: 100%;
+      margin-top: 10%;
+      margin-left: 3%;
+      height: 200px;
+      @include project;
+      padding-top: 75px;
+      text-align: center;
+    }
+    &--block{
+      @include between;
+      &__tema{
+        @include company;
+        margin: 40px 0 20px 0;
+      }
+      &__text{
+        margin: 0 0 50px 0;
+      }
+      &__block1{
+        margin-top: -20%;
+      }
+      &__block2{
+        &--tema{
+          @include company;
+          margin: 40px 0 20px 0;
+        }
+        &--text{
+          margin: 0 0 50px 0;
+        }
+      }
+    }
+  }
+}
+#contack{
+  .contack{
+    &--simbol{
+      position: absolute;
+      right: 0;
+      margin-top: -40%;
+      z-index: -1;
+    }
+    &--block{
+      text-align: center;
+      background: #FFFFFF;
+      border: 8px solid #842231;
+      border-radius: 8px;
+      &__prezen{
+        @include prezen;
+        padding-top: 50px;
+      }
+      &__tex{
+        @include tex;
+        padding: 20px 0 40px 0;
+      }
+      &__blocktitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3%;
+        &--icon1{
+          position: absolute;
+          padding-left: 10px;
+          padding-top: 25px;
+        }
+        &--icon2{
+          position: absolute;
+          padding-top: 45px;
+          padding-left: 45px;
+        }
+        &--btn{
+          background: #842231;
+          border-radius: 8px;
+          border: none;
+          color: #FFFFFF;
+          padding: 25px 90px;
+        }
+        &--nomber{
+          padding: 25px 50px 25px 40px;
+          border: none;
+          background: #F2F6FA;
+          border-radius: 8px;
+          outline: none;
+          margin: 20px 30px;
+        }
+        &--name{
+          padding: 25px 50px 25px 40px;
+          border: none;
+          background: #F2F6FA;
+          border-radius: 8px;
+          outline: none;
+        }
+      }
+    }
+    &--logo{
+      background: url("../img/оплата.png")no-repeat;
+      width: 60%;
+      margin-left: 18%;
+      height: 200px;
+      padding-left: 15%;
+      padding-top: 7%;
+      @include project;
+      margin-top: 50px;
+    }
+    &--block2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__text{
+        text-align: center;
+        @include four;
+      }
+      &__img{
+        margin: 0 100px 10px 100px;
+      }
+    }
+    &--block3{
+      margin-top: 50px;
+      @include between;
+      &__block02{
+        margin-right: 10%;
+        &--gmail{
+          color: black;
+        }
+        &--nomber{
+          margin-bottom: 10px;
+        }
+        &--insta{
+          margin-top: 10px;
+        }
+        &--QRC{
+          position: absolute;
+          margin-left: 15%;
+          margin-top: -5%;
+        }
+        &--adress{
+          margin: 20px 0;
+        }
+        &--contac{
+          @include project;
+        }
+      }
+    }
+    &--footer{
+      @include footer;
+      margin: 5% 20%;
+      a{
+        color: black;
+        margin-left: 8%;
+      }
+    }
+    &--maxico{
+      @include maxico;
+      margin-left: 40%;
+      padding-bottom: 30px;
+    }
+  }
+}

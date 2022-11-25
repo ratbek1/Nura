@@ -1,0 +1,152 @@
+@mixin between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin contack{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+@mixin city{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 265px 0 40px 0;
+}
+@mixin btn{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  border: none;
+  padding: 20px 30px;
+  margin: 0 0 40px 0;
+}
+@mixin title{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin: 0 0 40px 0;
+}
+@mixin block1{
+  display: flex;
+  align-items: center;
+}
+@mixin three{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 83.7%;
+  color: #FFFFFF;
+}
+@mixin kottedja{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0 0 20px 10px;
+}
+@mixin row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@mixin blockTitle{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+@mixin menu{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  margin: 30px;
+  right: -60px;
+}
+@mixin text{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  color: #333333;
+}
+@mixin goal{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+@mixin project{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #333333;
+}
+@mixin elt{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%
+}
+@mixin company{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+@mixin texcom{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+}
+@mixin one {
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+@mixin prezen{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2E363E;
+}
+@mixin tex{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: -0.2px;
+  color: #2E363E;
+}
+@mixin four{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #333333;
+}
+@mixin footer{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  color: #333333;
+  text-align: center;
+}
+@mixin maxico{
+  font-family: 'Fira Sans',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color:#842231;
+}

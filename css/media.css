@@ -1,0 +1,28 @@
+@media (max-width: 1140px) {
+  #contack .contack--logo {
+    width: 64%;
+    margin-left: 9%;
+    height: 170px;
+    padding-left: 20%;
+  }
+  #hero3 .hero3--block__block2--block03__tex {
+    margin: 0 0 20px 6px;
+  }
+  #hero3 .hero3--block__block2--block03__text1 {
+    margin: 0 0 20px 9px;
+  }
+  #hero3 .hero3--block__block2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    flex-direction: column;
+  }
+  #hero2 .hero2--home {
+    max-width: 100%;
+  }
+  #hero2 .hero2--img {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
